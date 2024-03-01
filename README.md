@@ -1,11 +1,26 @@
-# job-search
+# Проект job-search для поиска работы
 
 ![](src/assets/icons/screens/screen.png)
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Настройки  IDE 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
+Для регистрации и авторизации, мы воспользуемся сервисом [Mokky](https://mokky.gitbook.io/welcome/ "Mokky")
+
+
+>Mokky — это простой сервис, который позволяет вам легко создавать тестовое API для ваших пет-проектов, генерировать пользовательские данные и манипулировать этими данными с помощью готовых RESTApi-мет
+
+
+## Задачи проекта
+- [x] Регистрация 
+- [x] Авторизация
+- [ ] Создание профиля
+
+
+## Используемые инструменты
++ Vue3
++ Pinia
++ Router
++ Mokky
++ Tailwind
 

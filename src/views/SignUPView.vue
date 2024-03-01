@@ -63,8 +63,9 @@ const submitData = async () => {
 <template>
     <div class="w-10/12 mx-auto h-full flex flex-1 justify-center items-center">
         <div class="w-full max-w-lg">
-            <div class="leading-loose">
-                <form @submit.prevent="submitData" class="max-w-sm m-4 p-10 bg-white bg-opacity-25 rounded-md shadow-xl">
+            <div class="leading-loose ">
+                <form @submit.prevent="submitData" class="max-w-sm m-4 p-10 bg-white 
+                bg-opacity-10 rounded-md shadow-xl">
                     <p class="text-center text-3xl font-bold mb-5">
                         <span
                             class="bg-clip-text text-transparent bg-gradient-to-t from-green-300 via-pink-500 to-purple-500">

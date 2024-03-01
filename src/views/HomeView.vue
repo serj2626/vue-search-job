@@ -1,28 +1,29 @@
-<script setup></script>
+<script setup>
+import RightComponent from '@/components/RightComponent.vue';
+</script>
 
 
 <template>
     <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
         <h1 class="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
-            Создай
+            Легкий
             <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-                свое резюме
+                поиск
             </span>
-            и вперед к поиску работы мечты! 
+            вакансий и стажировок для IT специалистов
         </h1>
         <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left">
-            Сообщение о второстепенном герое, не слишком длинное и не слишком
-            короткое. Сделайте это правильно!
+            Введите название должности, профессии или компании!
         </p>
 
         <form class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
             <div class="mb-4">
                 <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
-                    Подпишитесь на нашу рассылку новостей
+                    Введите название должности, профессии или компании
                 </label>
-                <input
-                    class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-                    id="emailaddress" type="text" placeholder="you@somewhere.com" />
+                <input class="shadow appearance-none border rounded w-full p-3 text-gray-700
+                     leading-tight focus:ring transform transition hover:scale-105 duration-300
+                      ease-in-out" id="emailaddress" type="text" placeholder="python" />
             </div>
 
             <div class="flex items-center justify-between pt-4">
@@ -36,18 +37,5 @@
     </div>
 
     <!--Right Col-->
-    <div class="w-full xl:w-3/5 p-12 overflow-hidden">
-        <img class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"
-            src="@/assets/resume.png" />
-    </div>
-
-    <div class="mx-auto md:pt-16">
-        <p class="text-blue-400 font-bold pb-8 lg:pb-6 text-center">
-            Скачать наше приложение:
-        </p>
-        <div class="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
-            <img src="@/assets/app_store.svg" class="h-12 pr-12 transform hover:scale-125 duration-300 ease-in-out" />
-            <img src="@/assets/play_store.svg" class="h-12 transform hover:scale-125 duration-300 ease-in-out" />
-        </div>
-    </div>
+    <RightComponent />
 </template>
